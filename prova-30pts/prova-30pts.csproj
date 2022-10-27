@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>prova_30pts</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="check.png" />
+    <None Remove="elefante_correto.png" />
+    <None Remove="elefante_falso-removebg-preview.png" />
+    <None Remove="elefante_falso.png" />
+    <None Remove="Fundo-transparente-1900x1900-1-768x768.png" />
+    <None Remove="imagemfalsa.png" />
+    <None Remove="prefeitura.png" />
+    <None Remove="retangulo.png" />
+    <None Remove="robson.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="check.png" />
+    <Resource Include="elefante_correto.png" />
+    <Resource Include="elefante_falso-removebg-preview.png" />
+    <Resource Include="elefante_falso.png" />
+    <Resource Include="Fundo-transparente-1900x1900-1-768x768.png" />
+    <Resource Include="imagemfalsa.png" />
+    <Resource Include="prefeitura.png" />
+    <Resource Include="retangulo.png" />
+    <Resource Include="robson.png" />
+  </ItemGroup>
+
+</Project>
